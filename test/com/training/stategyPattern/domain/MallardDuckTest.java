@@ -38,7 +38,7 @@ public class MallardDuckTest {
     public void shouldReturnAFlyingTypeWhenPreformingAFly() {
         exceptedMessage = "Normal flying duck";
 
-        String flyMessage = duck.fly();
+        String flyMessage = duck.performFly();
 
         assertThat(flyMessage, is(exceptedMessage));
     }

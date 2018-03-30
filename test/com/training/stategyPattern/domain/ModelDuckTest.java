@@ -38,7 +38,7 @@ public class ModelDuckTest {
     public void shouldReturnAFlyingTypeWhenPreformingAFly() {
         exceptedMessage = "I can not fly";
 
-        String flyMessage = duck.fly();
+        String flyMessage = duck.performFly();
 
         assertThat(flyMessage, is(exceptedMessage));
     }
