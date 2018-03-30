@@ -1,18 +1,19 @@
-package com.training.domain;
+package com.training.stategyPattern.domain;
 
+import com.training.strategyPattern.domain.MallardDuck;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class ModelDuckTest {
-    ModelDuck duck;
+public class MallardDuckTest {
+    MallardDuck duck;
     String exceptedMessage;
 
     @Before
     public void setUp() {
-        duck = new ModelDuck();
+        duck = new MallardDuck();
     }
 
     @Test
@@ -26,7 +27,7 @@ public class ModelDuckTest {
 
     @Test
     public void shouldReturnARealQuackWhenPreformingAQuack() {
-        exceptedMessage = "Squeak";
+        exceptedMessage = "Quacking like a real duck";
 
         String quackMessage = duck.performQuack();
 
@@ -35,11 +36,10 @@ public class ModelDuckTest {
 
     @Test
     public void shouldReturnAFlyingTypeWhenPreformingAFly() {
-        exceptedMessage = "I can not fly";
+        exceptedMessage = "Normal flying duck";
 
         String flyMessage = duck.fly();
 
         assertThat(flyMessage, is(exceptedMessage));
     }
-
 }

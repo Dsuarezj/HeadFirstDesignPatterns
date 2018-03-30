@@ -1,4 +1,4 @@
-package com.training.behaviours;
+package com.training.strategyPattern.behaviours;
 
 public interface FlyBehaviour {
     String fly();
