@@ -1,5 +1,7 @@
 package com.training.stategyPattern.domain;
 
+import com.training.strategyPattern.behaviours.FlyBehaviour;
+import com.training.strategyPattern.behaviours.fly.FlyWithRocket;
 import com.training.strategyPattern.domain.ModelDuck;
 import org.junit.Before;
 import org.junit.Test;
@@ -42,5 +44,4 @@ public class ModelDuckTest {
 
         assertThat(flyMessage, is(exceptedMessage));
     }
-
 }

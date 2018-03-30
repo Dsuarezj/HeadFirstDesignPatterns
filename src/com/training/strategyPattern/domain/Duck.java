@@ -11,11 +11,15 @@ public abstract class Duck {
         return "All ducks float";
     }
 
-    public String performQuack (){
+    public String performQuack() {
         return quackBehaviour.quack();
     }
 
-    public String performFly (){
+    public String performFly() {
         return flyBehaviour.fly();
+    }
+
+    public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+        this.flyBehaviour = flyBehaviour;
     }
 }
