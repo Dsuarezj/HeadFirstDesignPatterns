@@ -1,8 +1,10 @@
 package com.training.domain;
 
+import com.training.behaviours.imp.Quack;
+
 public class MallardDuck extends Duck {
-    public String quack() {
-        return "Quacking like a real duck";
+    public MallardDuck() {
+        quackBehaviour = new Quack();
     }
 
     public String fly() {

@@ -1,8 +1,10 @@
 package com.training.domain;
 
+import com.training.behaviours.imp.Squeak;
+
 public class ModelDuck extends Duck {
-    public String quack() {
-        return "Squeak";
+    public ModelDuck() {
+        quackBehaviour = new Squeak();
     }
 
     public String fly() {

@@ -28,7 +28,7 @@ public class MallardDuckTest {
     public void shouldReturnARealQuackWhenPreformingAQuack() {
         exceptedMessage = "Quacking like a real duck";
 
-        String quackMessage = duck.quack();
+        String quackMessage = duck.performQuack();
 
         assertThat(quackMessage, is(exceptedMessage));
     }
