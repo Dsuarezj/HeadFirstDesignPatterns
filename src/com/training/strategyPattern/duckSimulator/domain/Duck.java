@@ -1,7 +1,7 @@
-package com.training.strategyPattern.domain;
+package com.training.strategyPattern.duckSimulator.domain;
 
-import com.training.strategyPattern.behaviours.FlyBehaviour;
-import com.training.strategyPattern.behaviours.QuackBehaviour;
+import com.training.strategyPattern.duckSimulator.behaviours.FlyBehaviour;
+import com.training.strategyPattern.duckSimulator.behaviours.QuackBehaviour;
 
 public abstract class Duck {
     FlyBehaviour flyBehaviour;

@@ -1,8 +1,6 @@
-package com.training.stategyPattern.domain;
+package com.training.strategyPattern.duckSimulator.domain;
 
-import com.training.strategyPattern.behaviours.FlyBehaviour;
-import com.training.strategyPattern.behaviours.fly.FlyWithRocket;
-import com.training.strategyPattern.domain.ModelDuck;
+import com.training.strategyPattern.duckSimulator.domain.ModelDuck;
 import org.junit.Before;
 import org.junit.Test;
 

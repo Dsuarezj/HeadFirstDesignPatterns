@@ -1,9 +1,8 @@
 package com.training;
 
-import com.training.strategyPattern.behaviours.fly.FlyWithRocket;
-import com.training.strategyPattern.domain.Duck;
-import com.training.strategyPattern.domain.MallardDuck;
-import com.training.strategyPattern.domain.ModelDuck;
+import com.training.strategyPattern.duckSimulator.behaviours.fly.FlyWithRocket;
+import com.training.strategyPattern.duckSimulator.domain.Duck;
+import com.training.strategyPattern.duckSimulator.domain.ModelDuck;
 
 public class Main {
 

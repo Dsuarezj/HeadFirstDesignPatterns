@@ -1,6 +1,6 @@
-package com.training.stategyPattern.domain;
+package com.training.strategyPattern.duckSimulator.domain;
 
-import com.training.strategyPattern.domain.MallardDuck;
+import com.training.strategyPattern.duckSimulator.domain.MallardDuck;
 import org.junit.Before;
 import org.junit.Test;
 
